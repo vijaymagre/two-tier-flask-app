@@ -3,7 +3,7 @@ services:
 
   flaskapp:
     image: vijaymagre/flaskapp:latest
-    containername: flaskapp
+    container_name: flaskapp
     ports:
       - "5000:5000"
     environment:
