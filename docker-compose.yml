@@ -1,8 +1,11 @@
 version: '3'
 services:
-  
-  backend:
-    image: "vijaymagre/flaskapp:latest"
+
+  backend: 
+    flask-app:
+        image: vijaymagre/two-tier-flask-app:latest
+        container_name: flask-app
+    
     ports:
       - "5000:5000"
     environment:
