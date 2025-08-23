@@ -2,8 +2,7 @@ version: '3'
 services:
   
   backend:
-    build:
-      context: .
+    image: vijaymagre/flaskapp:latest
     ports:
       - "5000:5000"
     environment:
